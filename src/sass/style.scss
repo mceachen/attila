@@ -34,7 +34,8 @@ html.menu-active,
 }
 
 body {
-	font: 400 23px / 1.5em 'Cardo', serif;
+	// font: 400 23px / 1.5em 'Cardo', serif;
+	font: 400 22px / 1.5em 'Fira Sans', sans-serif;
 	color: $color-blue-30;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
@@ -563,7 +564,7 @@ img[src$="#full"] {
 	padding: 0;
 	font-family: 'Fira Sans', sans-serif;
 	font-weight: 700;
-	font-size: 2em;
+	font-size: 48px;
 	line-height: 1em;
 	text-decoration: none;
 }
@@ -1005,18 +1006,21 @@ img[src$="#full"] {
 	bottom: 0;
 	z-index: 8;
 	content: '';
-	background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 100%);
-	background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 100%);
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.75) 100%);
+	background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.75) 100%);
 }
 .post {
 	position: relative;
 	z-index: 10;
 }
+.has-cover .post-title {
+	font-size: 48px;
+}
 .post-title {
 	position: relative;
 	z-index: 10;
 	margin: 0 0 0.25em;
-	font-size: 38px;
+	font-size: 36px;
 	line-height: 1em;
 	font-weight: 700;
 	text-indent: -1px;
