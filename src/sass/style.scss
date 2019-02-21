@@ -34,7 +34,7 @@ html.menu-active,
 }
 
 body {
-	font: 400 2em / 1.5em 'Cardo', serif;
+	font: 400 22px / 1.5em 'Cardo', serif;
 	color: $color-blue-30;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
@@ -568,7 +568,7 @@ img[src$="#full"] {
 	text-decoration: none;
 }
 .home-template .blog-name {
-	font-size: 3em;
+	font-size: 46px;
 }
 .has-cover .blog-name {
 	color: $color-white;
@@ -584,7 +584,7 @@ img[src$="#full"] {
 	z-index: 10;
 	margin: 0.25em 0;
 	padding: 0;
-	font-size: 1em;
+	font-size: 28px;
 	line-height: 1.5em;
 }
 .home-template .blog-description {
@@ -617,7 +617,7 @@ img[src$="#full"] {
 
 
 .inner {
-	max-width: 32em;
+	max-width: 36em;
 	margin: 0 auto;
 	padding: 0 2em;
 }
