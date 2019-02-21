@@ -24,7 +24,7 @@
 }
 
 html {
-	font-size: 62.5%;
+	// font-size: 62.5%;
 	overflow-x: hidden;
 }
 
@@ -34,7 +34,7 @@ html.menu-active,
 }
 
 body {
-	font: 400 22px / 1.5em 'Cardo', serif;
+	font: 400 23px / 1.5em 'Cardo', serif;
 	color: $color-blue-30;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
@@ -52,7 +52,6 @@ textarea {
 a {
 	color: $color-blue-15;
 	text-decoration: none;
-	font-weight: 400;
 	transition: all ease-out 0.2s;
 }
 a:hover,
@@ -217,15 +216,16 @@ mark {
     background-color: $color-yellow-100;
 }
 code, tt {
-	position: relative;
-	margin: 0 0.334em;
-	padding: 0.334em 0.667em;
+	/* position: relative; */
+	margin: 0 2px;
+	padding: 5px 4px;
 	font-family: monospace, sans-serif;
-	font-size: 0.75em;
+	font-size: 17px;
 	white-space: pre;
-	background: $color-gray-98;
-  border: 1px solid $color-gray-90;
-	top: -2px;
+	background: #dcdcdc;
+	/* border: 1px solid #e5e4e1; */
+	/* top: -2px; */
+	border-radius: 4px;
 }
 
 pre {
@@ -617,7 +617,7 @@ img[src$="#full"] {
 
 
 .inner {
-	max-width: 36em;
+	max-width: 700px;
 	margin: 0 auto;
 	padding: 0 2em;
 }
@@ -927,18 +927,18 @@ img[src$="#full"] {
 	position: relative;
 }
 .container .post {
-	padding: 4em 0;
+	padding: 42px 0;
 }
-.container .post:after {
-	position: absolute;
-	width: 32em;
-	height: 1px;
-	left: 50%;
-	bottom: 0;
-	margin-left: -16em;
-	content: '';
-	background: $color-gray-90;
-}
+// .container .post:after {
+// 	position: absolute;
+// 	width: 32em;
+// 	height: 1px;
+// 	left: 50%;
+// 	bottom: 0;
+// 	margin-left: -16em;
+// 	content: '';
+// 	background: #1f8198;
+// }
 .container .post.featured .post-title:after {
 	position: absolute;
 	width: 1em;
@@ -1016,7 +1016,7 @@ img[src$="#full"] {
 	position: relative;
 	z-index: 10;
 	margin: 0 0 0.25em;
-	font-size: 2em;
+	font-size: 38px;
 	line-height: 1em;
 	font-weight: 700;
 	text-indent: -1px;
