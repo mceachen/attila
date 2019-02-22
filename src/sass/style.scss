@@ -1064,7 +1064,27 @@ img[src$="#full"] {
 }
 .post-excerpt p {
 	margin: 0.5em 0 0;
+	color: #777; 
 }
+
+.post-excerpt .continue-reading {
+	padding: 4px 20px 7px;
+	color: #579bbe;
+	font-variant: small-caps;
+	font-weight: bold;
+	border-radius: 8px;
+	transition: .3s;
+}
+
+// The whole post-excerpt is clickable, so take any hover over the excerpt: 
+.post-excerpt:hover .continue-reading {
+	background: #3743da;
+	/* transitions don't work on linear gradients.
+	/* background: -webkit-gradient(linear, left top, right top, from(#007f99), to(#7e0689)); */
+	/* background: linear-gradient(to right, #007f99 0%, #7e0689 100%); */
+	color: #fff;
+}
+
 .post-content {
   padding: 2em 0;
   display: flex;
