@@ -645,7 +645,7 @@ img[src$="#full"] {
 	height: 1.5em;
 	margin-bottom: 1em;
 	padding: 0.5em 1.25em;
-	border: 1px solid $color-blue-80;
+	border: 1.5px solid $color-blue-80;
 	font-family: 'Fira Sans', sans-serif;
 	font-size: 0.75em;
 	line-height: 1.667em;
@@ -654,7 +654,7 @@ img[src$="#full"] {
 	cursor: pointer;
 	background: $color-white;
 	transition: color,border-color ease 0.3s;
-	border-radius: 2em;
+	border-radius: 8px;
 }
 .nav-button a:hover,
 .nav-button a:focus {
@@ -1169,14 +1169,14 @@ img[src$="#full"] {
 	margin: 0 0.334em 0.667em 0;
 	padding: 0.575em 1em;
 	background: $color-white;
-	border: 1px solid $primary-color;
+	border: 1.5px solid $primary-color;
 	font-size: 0.75em;
 	font-weight: 500;
 	line-height: 1.334em;
 	text-align: center;
 	text-decoration: none;
 	color: $primary-color;
-	border-radius: 2em;
+	border-radius: 8px;
 	transition: all ease 0.3s;
 	box-sizing: border-box;
 }
