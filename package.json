@@ -1,5 +1,5 @@
 {
-  "name": "attila-20190222-sans",
+  "name": "attila-20190226-sans",
   "description": "Ghost Theme",
   "demo": "http://attila.zutrinken.com",
   "version": "1.7.6",
@@ -33,7 +33,8 @@
     "url": "https://github.com/zutrinken/attila.git"
   },
   "scripts": {
-    "dist": "grunt dist"
+    "dist": "grunt dist",
+    "rsync": "rsync -Pa --exclude-from=.rsync-exclude . "
   },
   "devDependencies": {
     "autoprefixer": "^9.1.5",
